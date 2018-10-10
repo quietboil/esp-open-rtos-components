@@ -1,0 +1,8 @@
+*
+!**/
+!Makefile
+!*.*
+*.[oa]
+local.mk
+.*
+!.gitignore
