@@ -13,4 +13,4 @@ For a program to use this component to access FAT filesystem it has to:
 - Either include an existing component that provides `diskio.c` driver (like [fatfs_sdcard_io](../fatfs_sdcard_io)) or create its own version of it.
 - Optionally create `ffconf.h` that changes the FatFs configuration if the defaults provides by this component are not adequate.
 
-Check [fatfs_sdcard_demo](https://github.com/quietboil/esp-open-rtos-components-demos/fatfs_sdcard_demo) for an example.
+Check [fatfs_sdcard_demo](https://github.com/quietboil/esp-open-rtos-components-demos/tree/master/fatfs_sdcard_demo) for an example.

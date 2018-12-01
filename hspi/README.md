@@ -20,7 +20,7 @@ EXTRA_COMPONENTS = \
 
 Implement `hspi_config.h` which would provide slave device descriptors and accessor functions for individual device specific properties.
 
-See [sdcard_demo](https://github.com/quietboil/esp-open-rtos-components-demos/sdcard_demo) for an example of one such implementation.
+See [sdcard_demo](https://github.com/quietboil/esp-open-rtos-components-demos/tree/master/sdcard_demo) for an example of one such implementation.
 
 > :warning: **Note** that `sdcard_demo` drives only one SPI slave and thus the demuxing is not actually present in its `hspi_config.h`. More specifically it does not define `HSPI_CS_DEMUX_GPIO_PINS` and does not implement `hspi_dev_demux_cs` function that this driver would use to route CS line to the selected SPI slave.
 
